@@ -1,0 +1,39 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "virtuallist-antd",
+          "meta": {}
+        },
+        {
+          "title": "Demo",
+          "path": "/demo",
+          "meta": {},
+          "children": [
+            {
+              "path": "/demo/single-page-loading",
+              "title": "SinglePageLoading",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "antd-virtual-table",
+  "mode": "doc",
+  "repository": {
+    "url": "https://github.com/guozhao.qi/antd-virtual-table",
+    "branch": "master"
+  },
+  "theme": {}
+}
